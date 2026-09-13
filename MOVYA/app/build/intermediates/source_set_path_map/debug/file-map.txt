@@ -1,0 +1,6 @@
+com.movya.app-resValues-0 /data/data/com.termux/files/home/MOVYA/app/build/generated/res/resValues/debug
+com.movya.app-packageDebugResources-1 /data/data/com.termux/files/home/MOVYA/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.movya.app-packageDebugResources-2 /data/data/com.termux/files/home/MOVYA/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.movya.app-merged_res-3 /data/data/com.termux/files/home/MOVYA/app/build/intermediates/merged_res/debug
+com.movya.app-debug-4 /data/data/com.termux/files/home/MOVYA/app/src/debug/res
+com.movya.app-main-5 /data/data/com.termux/files/home/MOVYA/app/src/main/res

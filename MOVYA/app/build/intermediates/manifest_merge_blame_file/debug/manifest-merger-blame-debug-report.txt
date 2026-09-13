@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.movya.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:4:5-79
+11-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:5:5-81
+12-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:6:5-67
+13-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:7:5-79
+14-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:7:22-76
+15
+16    <application
+16-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:9:5-30:19
+17        android:allowBackup="true"
+17-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:10:9-35
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:11:9-43
+21        android:label="MOVYA"
+21-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:12:9-30
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:14:9-35
+24        android:theme="@style/Theme.MOVYA" >
+24-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:15:9-43
+25        <meta-data
+26            android:name="com.google.android.geo.API_KEY"
+26-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:18:13-58
+27            android:value="AIzaSyDn4uk5bHlLf3zIvyUknrrB-0PY_F6cZ1k" />
+27-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:19:13-44
+28
+29        <activity
+29-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:21:9-29:20
+30            android:name="com.movya.app.MainActivity"
+30-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:22:13-41
+31            android:exported="true"
+31-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:23:13-36
+32            android:theme="@style/Theme.MOVYA" >
+32-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:24:13-47
+33            <intent-filter>
+33-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:25:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:26:17-69
+34-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:27:17-77
+36-->/data/data/com.termux/files/home/MOVYA/app/src/main/AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
