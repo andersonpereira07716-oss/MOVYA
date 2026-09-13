@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout do código
+    - name: Checkout do codigo
       uses: actions/checkout@v4
 
     - name: Configurar Java JDK 17
@@ -19,7 +19,7 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Dar permissão ao Gradlew
+    - name: Dar permissao ao Gradlew
       run: chmod +x gradlew
 
     - name: Compilar APK de Debug
